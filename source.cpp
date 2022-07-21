@@ -952,7 +952,8 @@ void one()//displays points as it increments.
 
 	}
 }
-void two()//displays points as it increments.
+
+void two() //displays points as it increments.
 {
 	if (flag == 1) {
 		glPushMatrix();
@@ -1057,7 +1058,6 @@ void CS4(int b)//function for menu option 4.
 	{
 		if (dat1 == 1)
 		{
-
 			db = 1;
 			glutIdleFunc(fourfourD);
 		}
@@ -1075,8 +1075,6 @@ void CS3(int a)//function for menu option 3.
 	{
 		if (dat2 == 1)
 		{
-
-
 			dd = 1;
 			glutIdleFunc(threethreeD);
 		}
@@ -1086,8 +1084,6 @@ void CS2(int o)//function for menu option 2.
 {
 	if (o == 1)
 	{
-
-
 		count = 1;
 		glutIdleFunc(twotwoU);
 	}
@@ -1102,17 +1098,12 @@ void CS1(int op)//function for menu option 1.
 {
 	if (op == 2)
 	{
-
-
 		glutIdleFunc(oneoneU);
-
-
 	}
 	if (op == 1)
 	{
 		if (flag == 0)
 		{
-
 			glutIdleFunc(handshake1H);
 		}
 	}
@@ -1123,7 +1114,7 @@ void CS1(int op)//function for menu option 1.
 	}
 
 }
-void cs(int OP)//function for menu option 5.
+void cs(int OP)  //function for menu option 5.
 {
 	if (OP == 5)
 	{
@@ -1277,9 +1268,7 @@ void display()//this function displays all the design and simulations.
 		glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, ptr7[i]);
 	glPopMatrix();
 
-	glPushMatrix();
-	one();
-	glPopMatrix();
+
 
 	glPushMatrix();
 	two();
